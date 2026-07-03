@@ -60,17 +60,17 @@ RadymDownloadBot is a Telegram bot that downloads media from TikTok, Instagram, 
 
 ## Student Recruitment Management
 
-**Recruitment workflow management system**
+**Deployment setup for a recruitment management app**
 
-SRM is a web application for managing student recruitment workflows. It combines a FastAPI backend with a React and TypeScript frontend, providing a structured interface for recruitment data, API-driven workflows, and local deployment.
+SRM is a student recruitment management application where my work focused on preparing and configuring the project for deployment. The repository includes a FastAPI backend, a React and TypeScript frontend, startup scripts, and deployment configuration.
 
 **Tech stack:** FastAPI, Python, SQLAlchemy, SQLite, React, TypeScript, Vite, Tailwind CSS
 
 **Highlights:**
-- Full-stack recruitment management application.
-- FastAPI backend with SQLAlchemy models and Pydantic schemas.
-- React + TypeScript frontend built with Vite.
-- Local development scripts for backend and frontend startup.
+- Deployment-oriented project setup and configuration.
+- Backend and frontend startup scripts for local and hosted environments.
+- Render deployment configuration.
+- FastAPI backend and React + TypeScript frontend structure.
 
 ## git-merged
 
@@ -88,41 +88,28 @@ git-merged is a command-line utility that finds local or remote Git branches alr
 
 ## Pinchana Core
 
-**Shared core package for a scraper platform**
+**PyPI packaging fork for Pinchana Core**
 
-Pinchana Core is an unofficial PyPI-distributed fork of the Pinchana core package. It provides shared models, storage utilities, VPN control, Docker orchestration, and plugin registration logic for scraper-based systems.
+Pinchana Core is an unofficial fork prepared so the original Pinchana Core project can be installed as a PyPI package. My work here was focused on packaging, distribution metadata, and making the package usable as a dependency for downstream projects.
 
 **Tech stack:** Python, Pydantic, Docker, Gluetun, PyPI packaging
 
 **Highlights:**
-- Shared Pydantic models for scraper requests and responses.
-- Media cache with LRU eviction and download helpers.
-- VPN rotation and health checks through Gluetun.
-- Docker module discovery and lifecycle management.
+- PyPI-ready package distribution for an upstream project.
+- Packaging metadata and dependency setup.
+- Preserves the original `pinchana_core` import path.
+- Intended for use as a dependency in Pinchana-based projects.
 
 ## Pinchana Twitter
 
-**Twitter/X scraper plugin and Python package**
+**PyPI packaging fork for a Pinchana Twitter/X plugin**
 
-Pinchana Twitter is an unofficial Pinchana plugin and importable Python package for scraping public Twitter/X post metadata and media. It uses X internal GraphQL where possible, supports VPN rotation for resilience, and falls back to public metadata services when needed.
+Pinchana Twitter is an unofficial fork prepared so the original Pinchana Twitter/X scraper plugin can be installed as a PyPI package. My work here was focused on packaging the plugin, exposing it as an importable Python dependency, and keeping it usable in downstream projects.
 
 **Tech stack:** Python, FastAPI-style plugin API, X GraphQL, Gluetun, PyPI packaging
 
 **Highlights:**
-- Scrapes text, author data, images, and videos from X/Twitter posts.
-- Provides both HTTP endpoints and a synchronous Python library wrapper.
-- Uses VPN rotation for rate-limit resilience.
-- Publishes as an installable package for downstream projects.
-
-## Personal Portfolio
-
-**GitHub Pages portfolio website**
-
-Personal Portfolio is the repository for the public GitHub Pages website that will showcase projects, experience, and contact information. The current repository is prepared for a future React-based implementation.
-
-**Tech stack:** GitHub Pages, React planned
-
-**Highlights:**
-- Public portfolio repository at `radimbig2.github.io`.
-- Ready for a React implementation.
-- Intended to become the central showcase for selected projects.
+- PyPI-ready package distribution for an upstream plugin.
+- Importable Python wrapper for downstream use.
+- Packaging metadata and release workflow setup.
+- Keeps the original scraper logic attribution clear.
