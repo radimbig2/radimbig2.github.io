@@ -78,6 +78,13 @@ I am a software developer focused on practical full-stack and automation project
 - API deployment preparation
 - Package publishing workflows for npm and PyPI
 
+## AI-Assisted Workflow
+
+- Use AI tools such as Codex, Claude, and Cursor as part of daily development.
+- Work with MCP servers and custom skills to connect AI assistants to local tools, repositories, databases, and repeatable workflows.
+- Use AI for faster codebase navigation, debugging, refactoring, documentation, test planning, and implementation review.
+- Build prompts and project-specific workflows that turn AI into a practical engineering assistant instead of a generic chat tool.
+
 ## Project Experience
 
 - Built and published .NET API projects with authentication, validation, database access, and Postman-based testing.
