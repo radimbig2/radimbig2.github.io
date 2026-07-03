@@ -7,6 +7,8 @@ tags:
 
 # About Me
 
+![Radim](../assets/face.jpg)
+
 I am a software developer focused on practical full-stack and automation projects. My work includes backend APIs, desktop and mobile applications, Telegram bots, scraping tools, deployment setup, and packaging projects for public distribution.
 
 I like building useful systems end-to-end: from API design and database persistence to local tooling, deployment, and clear project documentation.
